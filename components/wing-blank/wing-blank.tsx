@@ -1,6 +1,7 @@
 import classnames from 'classnames';
 import * as React from 'react';
 import {WingBlankPropsType} from './PropsType';
+import './style/index.less';
 
 export interface WingBlankProps extends WingBlankPropsType {
     prefixCls?: string;
@@ -13,13 +14,10 @@ export default class WingBlank extends React.Component<WingBlankProps, any> {
         prefixCls: 'am-wingblank',
         size: 'lg',
     };
-    componentDidMount(): void {
-
-    }
 
     render() {
-        const {prefixCls, size, className, children, style} = this.props;
-        const wrapCls = classnames(prefixCls, `${prefixCls}-${size}`, className);
+        const {prefixCls, size, classname, children, style} = this.props;
+        const wrapCls = classnames(prefixCls, `${prefixCls}-${size}`, classname);
         return (
             <div className={wrapCls} style={style}>
                 {children}
@@ -27,4 +25,3 @@ export default class WingBlank extends React.Component<WingBlankProps, any> {
         );
     }
 }
-
