@@ -5,7 +5,7 @@ const {CheckerPlugin} = require('awesome-typescript-loader');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
     entry: {
-        app: [path.join(__dirname + './../white-space.tsx'), path.join(__dirname + './../public/index.html')],
+        app: [path.join(__dirname + './../index.tsx'), path.join(__dirname + './../public/index.html')],
     },
     resolve: {
         // Add '.ts' and '.tsx' as resolvable extensions.

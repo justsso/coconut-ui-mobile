@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ExampleOne from './examples/wingBlank';
+import ExampleOne from './examples/index';
 import './index.css';
 
 class App extends React.Component {

@@ -1,29 +1,27 @@
-import classnames from 'classnames';
-import {WhiteSpacePropsType} from './PropsType';
 import * as React from 'react';
+import classnames from 'classnames';
+import {WhiteSpacePropsType} from "./PropsType";
+import './style/index.less';
 
-export interface WhiteSpaceProps extends WhiteSpacePropsType {
-    prefixCls?: string,
-    classname?: string,
-    style?: React.CSSProperties,
+interface PropsType extends WhiteSpacePropsType {
+    prefixCls?: string;
+    className?: string;
+    style?: React.CSSProperties;
     onClick?: React.MouseEventHandler<HTMLDivElement>
 }
 
-
-export default class WhiteSpace extends React.Component<WhiteSpaceProps, any> {
+export default class WhiteSpace extends React.Component<PropsType, any> {
     static defaultProps = {
         prefixCls: 'am-whitespace',
         size: 'md'
     };
 
     render() {
-        const {prefixCls, size, classname, style, onClick, children} = this.props;
-        const wrapCls = classnames(prefixCls, `${prefixCls}-${size}`, classname);
+        const {prefixCls, className, onClick, children, size} = this.props;
+        const classname = classnames(prefixCls, `${prefixCls}-${size}`, className);
+
         return (
-            <div className={wrapCls} style={style} onClick={onClick}>
-                {children}
-            </div>
-        );
+            <div className={classname} onClick={onClick}>{children}</div>
+        )
     }
 }
-
