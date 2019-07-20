@@ -1,0 +1,114 @@
+@import '../../style/mixins';
+@import "../../style/themes/default";
+
+@preClas: am-button;
+.myActiveClass{
+  border: 1px solid blue;
+}
+.@{preClas} {
+  display: block;
+  outline: 0 none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  padding: 0;
+
+  font-size: @button-font-size;
+  height: @button-height;
+  line-height: @button-height;
+  text-align: center;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  white-space: nowrap;
+
+  color: @color-text-base;
+  background-color: @fill-base;
+
+  .hairline('all', @border-color-base, @radius-md);
+
+  &&-active {
+    background-color: @fill-tap;
+  }
+
+  &&-disabled {
+    color: fade(@color-text-base, 30%);
+    opacity: 60%;
+  }
+
+  &-primary {
+    background-color: @primary-button-fill;
+    color: @color-text-base-inverse;
+
+    &.@{preClas}-active {
+      color: fade(@color-text-base-inverse, 30%);
+      background-color: @primary-button-fill-tap;
+      .hairline('all', @primary-button-fill, @radius-md);
+
+    }
+
+    &.@{preClas}-disabled {
+      color: fade(@color-text-base-inverse, 60%);
+      opacity: 0.4;
+    }
+  }
+
+  &-ghost {
+    background-color: transparent;
+    color: @ghost-button-color;
+    .hairline('all', @ghost-button-color, @radius-md);
+
+    &.@{preClas}-active {
+      color: @ghost-button-fill-tap;
+      background-color: transparent;
+      .hairline('all', @ghost-button-fill-tap, @radius-md);
+
+    }
+
+    &.@{preClas}-disabled {
+      color: fade(@color-text-base, 10%);
+      .hairline('all', fade(@color-text-base, 10%), @radius-md);
+      opacity: 1;
+    }
+
+  }
+
+  &-warning {
+    color: @color-text-base-inverse;
+    background-color: @warning-button-fill;
+
+    &.@{preClas}-active {
+      color: fade(@color-text-base-inverse, 30%);
+      background-color: @warning-button-fill-tap;
+    }
+
+    &.@{preClas}-disabled {
+      color: fade(@color-text-base-inverse, 60%);
+      opacity: 0.4;
+    }
+  }
+
+  &-inline {
+    display: inline-block;
+    padding: 0 @h-spacing-lg; //这里有icon的样式我没写
+  }
+
+  &-small {
+    font-size: @button-font-size-sm;
+    height: @button-height-sm;
+    line-height: @button-height-sm;
+    padding: 0 @h-spacing-lg;
+  }
+
+  &-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  > .@{preClas}-icon {
+    margin-right: .5em;
+  }
+
+}
+
