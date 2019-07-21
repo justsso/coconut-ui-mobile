@@ -28,9 +28,18 @@ class ExampleOne extends React.Component {
                             activeClassName={"myActiveClass"}
                     >inline ghost small</Button>
 
-                    <Icon/>
+                    <Icon className='icon-book' spin={true}/>
+                    <Icon className='icon-book' rotate={180}/>
+
                     <WhiteSpace/>
-                    <Button  type='primary'> <Icon/>123</Button>
+                    <Button type='primary'>
+                        <Icon className='icon-book' rotate={90}/>
+                        123
+                    </Button>
+                    <WhiteSpace/>
+                    <Button loading={true} type='primary'>loading</Button>
+                    <WhiteSpace/>
+                    <Button icon={<Icon className='icon-up'/>} type='warning'>自己得icon</Button>
                     <WingBlank>
                         <div className="placeholder">Block</div>
                     </WingBlank>

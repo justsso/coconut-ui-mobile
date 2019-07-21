@@ -2,9 +2,10 @@
 @import "../../style/themes/default";
 
 @preClas: am-button;
-.myActiveClass{
+.myActiveClass {
   border: 1px solid blue;
 }
+
 .@{preClas} {
   display: block;
   outline: 0 none;
@@ -91,6 +92,10 @@
   &-inline {
     display: inline-block;
     padding: 0 @h-spacing-lg; //这里有icon的样式我没写
+
+    &.@{preClas}-icon { //这里我没实现
+      display: inline-flex;
+    }
   }
 
   &-small {
