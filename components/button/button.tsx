@@ -47,7 +47,6 @@ export default class Button extends React.Component<PropsType, any> {
             ...restProps
         } = this.props;
 
-        console.log(icon, loading, 50);
         const WrapCls = classnames(preCls, className, {
             [`${preCls}-primary`]: type === 'primary',
             [`${preCls}-ghost`]: type === 'ghost',
@@ -59,11 +58,7 @@ export default class Button extends React.Component<PropsType, any> {
             [`${preCls}-icon`]: !!icon,
 
         });
-        console.log(
-            !loading ? null :
-                (icon ||
-                    <Icon style={{marginRight: '.5rem'}} className='iconfont icon-load' spin={true}/>)
-            , 66);
+
         return (
             <TouchFeedback
                 activeClassName={activeClassName || (activeStyle ? `${preCls}-active` : undefined)}
