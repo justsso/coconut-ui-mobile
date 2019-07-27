@@ -53,6 +53,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "rmc-feedback": "^2.0.0",
+    "rmc-notification": "^1.0.0",
     "typescript": "^3.5.2"
   }
 }

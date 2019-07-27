@@ -1,30 +1,43 @@
 import * as React from 'react';
 import classnames from 'classnames';
 import {ToastPropsType} from "./PropsType";
+import Notification from 'rmc-notification';
+import Icon from '../icon/icon';
 
-interface PropsType extends ToastPropsType{
-    content: React.ReactNode | string,
-    duration?: number,
-    onClose:
-}
 
-class Toast extends React.Component<PropsType, any> {
-    static info(){
+let messageInstance: any;
+const prefixCls = 'am-toast';
 
+
+function getMessageInstance(mask: boolean, callback: () => void) {
+    if(messageInstance){
+        messageInstance.destroy();
+        messageInstance = null;
     }
-
-    static success() {
-
-    }
-
-    static fail(){
-
-    }
-    static hide(){
-
-    }
-
 }
 
 
-export default Toast;
+function notice(){
+
+}
+//
+// class Toast extends React.Component<PropsType, any> {
+//     static info(){
+//
+//     }
+//
+//     static success() {
+//
+//     }
+//
+//     static fail(){
+//
+//     }
+//     static hide(){
+//
+//     }
+//
+// }
+
+
+// export default Toast;
