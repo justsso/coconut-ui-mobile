@@ -1,0 +1,41 @@
+@import '../../style/mixins';
+@import "../../style/themes/default";
+
+$prefixCls: am-toast;
+
+.@{prefixCls} {
+  position: fixed;
+  width: 100%;
+  z-index: @toast-zindex;
+  font-size: @font-size-base;
+  text-align: center;
+
+  > span {
+    max-width: 50%;
+  }
+
+  &&-mask{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    -webkit-transform: translateZ(1px);
+    -moz-transform: translateZ(1px);
+    -ms-transform: translateZ(1px);
+    -o-transform: translateZ(1px);
+    transform: translateZ(1px);
+  }
+
+  &&-nomask{
+    position: fixed;
+    max-width: 50%;
+    width: auto;
+    left: 50%;
+    top: 50%;
+    transform: translateZ(1px);
+
+  }
+
+}
