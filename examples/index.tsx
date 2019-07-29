@@ -3,7 +3,7 @@ import WingBlank from '../components/wing-blank/wing-blank';
 import WhiteSpace from '../components/white-space/white-space';
 import Button from '../components/button/button';
 import Icon from '../components/icon/icon';
-
+import Toast from '../components/toast/toast';
 // 暂未实现Loading
 import './index.less';
 
@@ -64,6 +64,30 @@ class ExampleOne extends React.Component {
                     <WhiteSpace size='xl'>
                         <div className="placeholder">Block</div>
                     </WhiteSpace>
+
+                    <Button size='small' type='primary' inline
+                            onClick={() => {
+                                Toast.info('Toast.info');
+                            }}
+                    > Toast.info() </Button>
+
+                    <Button size='small'  type='primary' inline
+                        onClick={() => {
+                            Toast.success('success', 1.5, () => {
+                                console.log('success close')
+                            }, true)
+                        }}
+                    >点击我显示success</Button>
+                    <Button size='small'  type='primary' inline
+                            onClick={() => {
+                                Toast.offline('offline', 1.5, () => {
+                                    console.log('offline close')
+                                }, true)
+                            }}
+                    >网络出错</Button>
+                    <Button onClick={() => {
+                        Toast.loading('加载中...', 2)
+                    }}>loading toast</Button>
                 </WingBlank>
             </div>
         )

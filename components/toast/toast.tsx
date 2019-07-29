@@ -1,12 +1,13 @@
 import * as React from 'react';
 import classnames from 'classnames';
 import Notification from 'rmc-notification';
+import './style/index.less';
 
 import Icon from '../icon/icon';
 
+
 let messageInstance: any;
 const prefixCls = 'am-toast';
-
 
 function getMessageInstance(
     mask: boolean,
@@ -36,9 +37,9 @@ function notice(content: React.ReactNode, type: string, duration = 3, onClose: (
     const iconTypes: { [key: string]: string } = {
         info: '',
         success: 'success',
-        fail: 'fail',
-        offline: 'dislike',
-        loading: 'loading'
+        fail: 'failure',
+        offline: 'offline',
+        loading: 'load'
     };
     const iconType = iconTypes[type];
 
@@ -53,7 +54,7 @@ function notice(content: React.ReactNode, type: string, duration = 3, onClose: (
                      role='alert'
                      aria-live="assertive"
                 >
-                    <Icon className={`iconfont icon-${iconType}`} size='lg' spin={iconType === 'loading'}/>
+                    <Icon className={`icon-${iconType}`} spin={type === 'loading'} size='md'/>
                     <div className={`${prefixCls}-text-info`}>{content}</div>
                 </div>
             ) : (

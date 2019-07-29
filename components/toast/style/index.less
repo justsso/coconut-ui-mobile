@@ -1,7 +1,7 @@
 @import '../../style/mixins';
 @import "../../style/themes/default";
 
-$prefixCls: am-toast;
+@prefixCls: am-toast;
 
 .@{prefixCls} {
   position: fixed;
@@ -14,7 +14,7 @@ $prefixCls: am-toast;
     max-width: 50%;
   }
 
-  &&-mask{
+  &&-mask {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -28,14 +28,33 @@ $prefixCls: am-toast;
     transform: translateZ(1px);
   }
 
-  &&-nomask{
+  &&-nomask {
     position: fixed;
     max-width: 50%;
     width: auto;
     left: 50%;
     top: 50%;
     transform: translateZ(1px);
+  }
 
+  &-notice-content {
+    .@{prefixCls}-text {
+      min-width: 60 * @hd;
+      border-radius: @radius-sm;
+      color: @color-text-base-inverse;
+      background-color: @toast-fill;
+      line-height: @line-height-paragraph;
+      padding: @v-spacing-md @h-spacing-lg;
+
+      &.@{prefixCls}-text-icon {
+        border-radius: @radius-md;
+        padding: @v-spacing-lg @h-spacing-lg;
+
+        .@{prefixCls}-text-info {
+          margin-top: @v-spacing-sm;
+        }
+      }
+    }
   }
 
 }
