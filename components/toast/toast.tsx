@@ -2,8 +2,19 @@ import * as React from 'react';
 import classnames from 'classnames';
 import Notification from 'rmc-notification';
 import './style/index.less';
-
 import Icon from '../icon/icon';
+
+const SHORT = 3;
+
+interface IToastConfig {
+    duration: number,
+    mask: boolean
+}
+
+const config: IToastConfig = {
+    duration: SHORT,
+    mask: true
+};
 
 
 let messageInstance: any;
@@ -33,7 +44,7 @@ function getMessageInstance(
 }
 
 
-function notice(content: React.ReactNode, type: string, duration = 3, onClose: (() => void) | undefined, mask = true) {
+function notice(content: React.ReactNode, type: string, duration = config.duration, onClose: (() => void) | undefined, mask = config.mask) {
     const iconTypes: { [key: string]: string } = {
         info: '',
         success: 'success',
@@ -54,7 +65,7 @@ function notice(content: React.ReactNode, type: string, duration = 3, onClose: (
                      role='alert'
                      aria-live="assertive"
                 >
-                    <Icon className={`icon-${iconType}`} spin={type === 'loading'} size='md'/>
+                    <Icon className={`icon-${iconType}`} spin={type === 'loading'} size="lg"/>
                     <div className={`${prefixCls}-text-info`}>{content}</div>
                 </div>
             ) : (
@@ -70,13 +81,20 @@ function notice(content: React.ReactNode, type: string, duration = 3, onClose: (
                 notification.destroy();
                 notification = null;
                 messageInstance = null;
+            },
+            config(conf: Partial<IToastConfig> = {}) {
+                const {duration = SHORT, mask} = conf;
+                config.duration = duration;
+                if (!mask) {
+                    config.mask = false;
+                }
             }
         })
     })
 }
 
 export default {
-    SHORT: 3,
+    SHORT: SHORT,
     LONG: 8,
     show(content: React.ReactNode, duration?: number, mask?: boolean) {
         return notice(content, 'info', duration, () => {

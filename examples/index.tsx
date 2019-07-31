@@ -71,14 +71,14 @@ class ExampleOne extends React.Component {
                             }}
                     > Toast.info() </Button>
 
-                    <Button size='small'  type='primary' inline
-                        onClick={() => {
-                            Toast.success('success', 1.5, () => {
-                                console.log('success close')
-                            }, true)
-                        }}
+                    <Button size='small' type='primary' inline
+                            onClick={() => {
+                                Toast.success('success', 1.5, () => {
+                                    console.log('success close')
+                                }, true)
+                            }}
                     >点击我显示success</Button>
-                    <Button size='small'  type='primary' inline
+                    <Button size='small' type='primary' inline
                             onClick={() => {
                                 Toast.offline('offline', 1.5, () => {
                                     console.log('offline close')
