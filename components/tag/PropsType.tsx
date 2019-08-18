@@ -1,5 +1,5 @@
 export interface TagPropsType {
-    disable?: boolean,
+    disabled?: boolean,
     selected?: boolean,
     closable?: boolean,
     small?: boolean,

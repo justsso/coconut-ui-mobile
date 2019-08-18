@@ -4,6 +4,7 @@ import WhiteSpace from '../components/white-space/white-space';
 import Button from '../components/button/button';
 import Icon from '../components/icon/icon';
 import Toast from '../components/toast/toast';
+import Tag from '../components/tag/tag';
 // 暂未实现Loading
 import './index.less';
 
@@ -88,6 +89,8 @@ class ExampleOne extends React.Component {
                     <Button onClick={() => {
                         Toast.loading('加载中...', 2)
                     }}>loading toast</Button>
+
+                    <Tag>123</Tag>
                 </WingBlank>
             </div>
         )
