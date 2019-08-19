@@ -31,11 +31,14 @@ export default class Tag extends React.Component<TagProps, any> {
         this.state = {
             selected: props.selected,
             closed: false
-        }
+        };
+        this.onClick = this.onClick.bind(this);
+        this.onTagClose = this.onTagClose.bind(this);
+
     }
 
     componentWillReceiveProps(nextProps: Readonly<TagProps>): void {
-        if(this.props.selected !== nextProps.selected){
+        if (this.props.selected !== nextProps.selected) {
             this.setState({
                 selected: nextProps.selected
             })
@@ -43,23 +46,24 @@ export default class Tag extends React.Component<TagProps, any> {
     }
 
     onClick() {
-        const {disabled, onChange } = this.props;
-        if(disabled){
-            return ;
+        const {disabled, onChange} = this.props;
+        if (disabled) {
+            return;
         }
         const isSelect = this.state.selected;
 
-        this.setState({selected: isSelect},() => {
-            if(onChange){
-                onChange(!isSelect)
-            }
-        })
+        this.setState({selected: !isSelect},
+            () => {
+                if (onChange) {
+                    onChange(!isSelect)
+                }
+            })
     }
 
     onTagClose() {
-        if(this.props.onClose){
+        if (this.props.onClose) {
             this.props.onClose();
-        }else {
+        } else {
             this.setState(
                 {
                     closed: true,
@@ -73,9 +77,9 @@ export default class Tag extends React.Component<TagProps, any> {
         const {children, className, prefixCls, disabled, closable, small, style} = this.props;
         const wrapCls = classnames(className, prefixCls, {
             [`${prefixCls}-normal`]:
-            !disabled && (!this.props.selected || small || closable),
+            !disabled && (!this.state.selected || small || closable),
             [`${prefixCls}-small`]: small,
-            [`${prefixCls}-active`]: this.props.selected && !disabled && !small || closable,
+            [`${prefixCls}-active`]: this.state.selected && !disabled && !small || closable,
             [`${prefixCls}-disabled`]: disabled,
             [`${prefixCls}-closable`]: closable
         });

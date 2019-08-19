@@ -91,6 +91,10 @@ class ExampleOne extends React.Component {
                     }}>loading toast</Button>
 
                     <Tag>123</Tag>
+                    <Tag disabled={true}>456</Tag>
+                    <Tag selected={true} >789</Tag>
+                    <Tag  small={true}>789</Tag>
+                    <Tag closable={true}>111</Tag>
                 </WingBlank>
             </div>
         )
