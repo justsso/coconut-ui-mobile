@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b36ea4c-481b-4d04-b4e6-42aaebcac348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/page1/page1.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/page2/page2.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/skeleton/PropsType.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/skeleton/skeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/skeleton/style/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/tag/PropsType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/tag/PropsType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/tag/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/components/tag/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/tag/tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/tag/tag.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/page2/page2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/page2/page2.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +19,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="Less File" />
         <option value="TypeScript JSX File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
@@ -34,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/skeleton" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/skeleton" />
       <recent name="$PROJECT_DIR$/components/style" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -143,6 +142,10 @@
       <workItem from="1566263910655" duration="3000" />
       <workItem from="1566351399464" duration="2237000" />
       <workItem from="1566355142533" duration="3642000" />
+      <workItem from="1566400878065" duration="1481000" />
+      <workItem from="1566717176368" duration="2281000" />
+      <workItem from="1566729962882" duration="1349000" />
+      <workItem from="1566743251790" duration="824000" />
     </task>
     <servers />
   </component>

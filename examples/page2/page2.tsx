@@ -10,6 +10,9 @@ class PageTwo extends React.Component{
                     console.log('jiating');
                     return ;
                 }}>家庭</Tag>
+                <Tag
+                onClick={(selected: boolean)=> {console.log(selected)}}
+                >123</Tag>
             </div>
         )
     }
