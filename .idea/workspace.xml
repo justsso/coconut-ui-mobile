@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b36ea4c-481b-4d04-b4e6-42aaebcac348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/skeleton/PropsType.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/skeleton/skeleton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/skeleton/style/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/skeleton/PropsType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skeleton/PropsType.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/skeleton/skeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skeleton/skeleton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/skeleton/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/components/skeleton/style/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/page2/page2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/page2/page2.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,7 +145,9 @@
       <workItem from="1566400878065" duration="1481000" />
       <workItem from="1566717176368" duration="2281000" />
       <workItem from="1566729962882" duration="1349000" />
-      <workItem from="1566743251790" duration="824000" />
+      <workItem from="1566743251790" duration="925000" />
+      <workItem from="1566784124541" duration="10916000" />
+      <workItem from="1566822585920" duration="7364000" />
     </task>
     <servers />
   </component>
