@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Tag from "../../components/tag/tag";
 import Skeleton from "../../components/skeleton/skeleton";
+// import {Playground} from "docz";
 
 const {useState} = React;
 
@@ -14,6 +15,7 @@ function PageTwo() {
 
     return (
         <div>
+            {/*<Playground>*/}
             <Tag onClick={(selected: boolean) => {
                 console.log(selected);
                 console.log('jiating');
@@ -58,8 +60,10 @@ function PageTwo() {
 
             <h6>设置loading, loading为false 显示子元素，该例子中loading 3s 之后变成false</h6>
             <Skeleton animate avatar title row={1} action  loading={loading}>
-                <div>我是内容, 可以刷新等待3s，查看此处变化</div>
+                <div>我是内容, 可
+                    以刷新等待3s，查看此处变化</div>
             </Skeleton>
+            {/*</Playground>*/}
         </div>
     )
 
