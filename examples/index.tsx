@@ -1,17 +1,27 @@
 import * as React from 'react';
-// import PageOne from "./page1/page1";
+import PageOne from "./page1/page1";
 import PageTwo from "./page2/page2";
+import PageThree from "./page3/page3";
+import {useState} from 'react';
 import './index.less';
 
-class ExampleOne extends React.Component {
-    render() {
-        return (
-            <div className='body'>
-                {/*<PageOne />*/}
-                <PageTwo />
-            </div>
-        )
-    }
+function ExampleOne() {
+    let [status] = useState([false, false, true]
+    );
+
+    return (
+        <div className='body'>
+            {
+                status[0] && <PageOne />
+            }
+            {
+                status[1] && <PageTwo />
+            }
+            {
+                status[2] && <PageThree />
+            }
+        </div>
+    )
 }
 
 export default ExampleOne;

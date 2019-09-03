@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b36ea4c-481b-4d04-b4e6-42aaebcac348" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examples/page3/page3.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/badge/PropsType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/badge/PropsType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/doc.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/badge/badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/badge/badge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/badge/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/components/badge/style/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +21,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="Less File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -152,7 +156,10 @@
       <workItem from="1567046311839" duration="38000" />
       <workItem from="1567087531123" duration="602000" />
       <workItem from="1567246153435" duration="727000" />
-      <workItem from="1567334409489" duration="2441000" />
+      <workItem from="1567334409489" duration="3692000" />
+      <workItem from="1567435739085" duration="3962000" />
+      <workItem from="1567485485415" duration="358000" />
+      <workItem from="1567512229568" duration="5531000" />
     </task>
     <servers />
   </component>
