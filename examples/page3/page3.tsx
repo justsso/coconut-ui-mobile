@@ -2,28 +2,28 @@ import * as React from 'react';
 import Badge from "../../components/badge/badge";
 import WhiteSpace from "../../components/white-space/white-space";
 import WingBlank from "../../components/wing-blank/wing-blank";
-import Button from "../../components/button/button";
-function PageThree (){
+
+function PageThree() {
     return <WingBlank>
         <h6>Badge组件： dot </h6>
-        <Badge dot >
+        <Badge dot>
             <span style={{
                 display: 'inline-block',
                 width: '30px',
                 height: '30px',
                 background: '#fff'
-            }} />
+            }}/>
         </Badge>
-        <WhiteSpace />
-        <Badge dot size={'large'} >
+        <WhiteSpace/>
+        <Badge dot size={'large'}>
             <span style={{
                 display: 'inline-block',
                 width: '30px',
                 height: '30px',
                 background: '#fff'
-            }} />
+            }}/>
         </Badge>
-        <WhiteSpace />
+        <WhiteSpace/>
         <h6>
             Badge text: string|number
         </h6>
@@ -33,16 +33,16 @@ function PageThree (){
                 width: '30px',
                 height: '30px',
                 background: '#fff'
-            }} />
+            }}/>
         </Badge>
-        <WhiteSpace />
+        <WhiteSpace/>
         <Badge text={'kkk'}>
             <span style={{
                 display: 'inline-block',
                 width: '30px',
                 height: '30px',
                 background: '#fff'
-            }} />
+            }}/>
         </Badge>
         <h6>
             Badge overflowCount 默认99
@@ -53,8 +53,20 @@ function PageThree (){
                 width: '30px',
                 height: '30px',
                 background: '#fff'
-            }} />
+            }}/>
         </Badge>
+        <WhiteSpace/>
+        <div style={{
+            width: '100px',
+            height: '40px',
+            background: '#fff',
+            lineHeight: '40px'
+        }}>我的消息
+            <Badge text={17} />
+        </div>
+        <WhiteSpace/>
+
+        <Badge dot />
     </WingBlank>
 }
 
