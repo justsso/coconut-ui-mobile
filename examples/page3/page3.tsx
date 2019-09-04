@@ -5,6 +5,7 @@ import WingBlank from "../../components/wing-blank/wing-blank";
 
 function PageThree() {
     return <WingBlank>
+        <h6>Badge组件，没有corner、hot属性的</h6>
         <h6>Badge组件： dot </h6>
         <Badge dot>
             <span style={{

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b36ea4c-481b-4d04-b4e6-42aaebcac348" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/accordion/PropsType.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/accordion/accordion.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/accordion/style/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/badge/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/components/badge/style/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/page3/page3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/page3/page3.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,7 +158,8 @@
       <workItem from="1567435739085" duration="3962000" />
       <workItem from="1567485485415" duration="358000" />
       <workItem from="1567512229568" duration="5702000" />
-      <workItem from="1567569270100" duration="1629000" />
+      <workItem from="1567569270100" duration="2287000" />
+      <workItem from="1567599028272" duration="2392000" />
     </task>
     <servers />
   </component>
