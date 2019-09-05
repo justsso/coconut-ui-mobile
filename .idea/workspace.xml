@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b36ea4c-481b-4d04-b4e6-42aaebcac348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/accordion/PropsType.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/accordion/accordion.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/accordion/style/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/style/mixins/util.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/accordion/accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/accordion/accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/accordion/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/components/accordion/style/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/page3/page3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/page3/page3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/skeleton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/style/mixins" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/style/mixins" />
       <recent name="$PROJECT_DIR$/components/skeleton" />
       <recent name="$PROJECT_DIR$/components/style" />
       <recent name="$PROJECT_DIR$" />
@@ -159,7 +162,8 @@
       <workItem from="1567485485415" duration="358000" />
       <workItem from="1567512229568" duration="5702000" />
       <workItem from="1567569270100" duration="2287000" />
-      <workItem from="1567599028272" duration="2392000" />
+      <workItem from="1567599028272" duration="2916000" />
+      <workItem from="1567671209112" duration="6844000" />
     </task>
     <servers />
   </component>

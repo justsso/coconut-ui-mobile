@@ -51,6 +51,7 @@
     "@types/prop-types": "^15.7.1",
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
+    "rc-collapse": "^1.11.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "rmc-feedback": "^2.0.0",

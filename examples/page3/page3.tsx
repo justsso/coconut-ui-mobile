@@ -2,6 +2,7 @@ import * as React from 'react';
 import Badge from "../../components/badge/badge";
 import WhiteSpace from "../../components/white-space/white-space";
 import WingBlank from "../../components/wing-blank/wing-blank";
+import Accordion from "../../components/accordion/accordion";
 
 function PageThree() {
     return <WingBlank>
@@ -68,6 +69,16 @@ function PageThree() {
         <WhiteSpace/>
 
         <Badge dot />
+        <WhiteSpace />
+
+        <Accordion
+            defaultActiveKey="0" className="my-accordion"
+        >
+            <Accordion.Panel header="Title 2" className="pad">this is panel content2 or other</Accordion.Panel>
+            <Accordion.Panel header="Title 3" className="pad">
+                text text text text text text text text text text text text text text text
+            </Accordion.Panel>
+        </Accordion>
     </WingBlank>
 }
 
