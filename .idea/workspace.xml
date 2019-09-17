@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b36ea4c-481b-4d04-b4e6-42aaebcac348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/style/mixins/util.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/accordion/Example.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/accordion/accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/accordion/accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/accordion/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/components/accordion/style/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/page3/page3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/page3/page3.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +159,10 @@
       <workItem from="1567512229568" duration="5702000" />
       <workItem from="1567569270100" duration="2287000" />
       <workItem from="1567599028272" duration="2916000" />
-      <workItem from="1567671209112" duration="6844000" />
+      <workItem from="1567671209112" duration="7705000" />
+      <workItem from="1567826040036" duration="1204000" />
+      <workItem from="1567931331057" duration="24000" />
+      <workItem from="1568724637918" duration="3094000" />
     </task>
     <servers />
   </component>

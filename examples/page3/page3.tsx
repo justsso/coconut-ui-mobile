@@ -75,7 +75,7 @@ function PageThree() {
             defaultActiveKey="0" className="my-accordion"
         >
             <Accordion.Panel header="Title 2" className="pad">this is panel content2 or other</Accordion.Panel>
-            <Accordion.Panel header="Title 3" className="pad">
+            <Accordion.Panel header="Title 3" className="pad" showArrow>
                 text text text text text text text text text text text text text text text
             </Accordion.Panel>
         </Accordion>
