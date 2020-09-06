@@ -74,7 +74,7 @@ export default class Button extends React.Component<PropsType, any> {
                 >
                     {
                         icon ? icon : (loading ?
-                            <Icon style={{marginRight: '.5rem'}} className='iconfont icon-load' spin={true}/> : null)
+                            <Icon style={{marginRight: '.5rem'}} className='icon-load' spin={true} /> : null)
                     }
 
                     {children}

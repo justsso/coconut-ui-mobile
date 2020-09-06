@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b36ea4c-481b-4d04-b4e6-42aaebcac348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/accordion/Example.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/page3/page3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/page3/page3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.tsx" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,12 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1PiKId5C3gGObxK0ufb5B31W1Gu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/style/mixins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,18 +62,6 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -81,6 +79,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -163,245 +162,73 @@
       <workItem from="1567826040036" duration="1204000" />
       <workItem from="1567931331057" duration="24000" />
       <workItem from="1568724637918" duration="3094000" />
+      <workItem from="1568777298711" duration="37000" />
+      <workItem from="1570262455863" duration="2581000" />
+      <workItem from="1570327329389" duration="2818000" />
+      <workItem from="1570438088813" duration="136000" />
+      <workItem from="1572439505320" duration="295000" />
+      <workItem from="1573138105434" duration="626000" />
+      <workItem from="1573176364707" duration="4000" />
+      <workItem from="1575387229611" duration="25000" />
+      <workItem from="1588757301927" duration="639000" />
+      <workItem from="1589357816769" duration="1873000" />
+      <workItem from="1589509386079" duration="3190000" />
+      <workItem from="1589525405318" duration="2304000" />
+      <workItem from="1589528323603" duration="148000" />
+      <workItem from="1589533867923" duration="668000" />
+      <workItem from="1589547627094" duration="81000" />
+      <workItem from="1589550765411" duration="4102000" />
+      <workItem from="1589953568435" duration="1543000" />
+      <workItem from="1591701331307" duration="592000" />
+      <workItem from="1594299726338" duration="1350000" />
+      <workItem from="1599395593314" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/textarea-item/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/textarea-item/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/menu/SubMenu.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/menu/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/menu/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/drawer/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/drawer/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/nav-bar/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/nav-bar/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/calendar/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/calendar/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/notice-bar/Marquee.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/notice-bar/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/notice-bar/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/checkbox/AgreeItem.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/checkbox/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/checkbox/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/checkbox/CheckboxItem.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/checkbox/Checkbox.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/CustomInput.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/Portal.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/Input.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/CustomKeyboard.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/flex/FlexItem.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/flex/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/flex/Flex.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/flex/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker-view/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker-view/PickerView.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/locale-provider/sv_SE.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/locale-provider/locale-provider.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/locale-provider/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/locale-provider/en_US.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/locale-provider/ru_RU.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/result/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/result/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/switch/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/switch/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/carousel/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/carousel/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/range/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/range/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/tabs/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/tabs/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/activity-indicator/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/activity-indicator/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pagination/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pagination/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker-view/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker-view/date-picker-view.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker-view/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/list-view/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/list-view/Indexed.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/list-view/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/list-view/handleProps.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/card/CardBody.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/card/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/card/CardFooter.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/card/CardHeader.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/card/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/image-picker/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/image-picker/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/badge/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/badge/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/toast/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/steps/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/steps/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/list/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/list/ListItem.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/list/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/popover/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/popover/Item.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/popover/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/accordion/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/accordion/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/modal/alert.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/modal/operation.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/modal/prompt.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/modal/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/modal/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/modal/Modal.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker/utils.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/tag/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/tag/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/text/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker/popupProps.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker/AbstractPicker.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/segmented-control/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/segmented-control/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pull-to-refresh/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/_util/getDataAttr.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/_util/closest.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/_util/exenv.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/_util/getLocale.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/_util/class.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/_util/types.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/radio/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/radio/RadioItem.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/radio/Radio.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/radio/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/tab-bar/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/tab-bar/Tab.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/tab-bar/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/icon/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/icon/loadSprite.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/icon/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/slider/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/slider/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/button/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/button/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/button/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/drawer/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/search-bar/locale/ru_RU.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/search-bar/locale/sv_SE.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/search-bar/locale/zh_CN.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/search-bar/locale/en_US.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/view/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/white-space/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/toast/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pagination/locale/ru_RU.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pagination/locale/sv_SE.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pagination/locale/zh_CN.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pagination/locale/en_US.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/white-space/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/white-space/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pagination/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/wing-blank/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/steps/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/locale/ru_RU.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/locale/sv_SE.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/locale/zh_CN.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/locale/en_US.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/range/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/icon/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/swipe-action/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/swipe-action/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/input-item/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/radio/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker-view/locale/ru_RU.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker-view/locale/sv_SE.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker-view/locale/zh_CN.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker-view/locale/en_US.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/list-view/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/notice-bar/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/modal/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/action-sheet/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/accordion/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/badge/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/progress/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/view/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/text/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/checkbox/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/activity-indicator/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/tabs/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker/locale/ru_RU.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker/locale/sv_SE.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker/locale/zh_CN.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker/locale/en_US.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker/locale/ru_RU.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker/locale/sv_SE.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker/locale/zh_CN.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker/locale/en_US.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/carousel/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/segmented-control/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/menu/locale/ru_RU.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/menu/locale/sv_SE.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/menu/locale/zh_CN.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/menu/locale/en_US.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/picker-view/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/menu/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/result/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/calendar/locale/pt_BR.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/calendar/locale/zh_CN.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/calendar/locale/en_US.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/calendar/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/wing-blank/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/wing-blank/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/date-picker-view/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/slider/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/list/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/search-bar/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pull-to-refresh/locale/ru_RU.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pull-to-refresh/locale/sv_SE.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pull-to-refresh/locale/zh_CN.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pull-to-refresh/locale/en_US.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/tab-bar/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/stepper/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/locale-provider/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/grid/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/swipe-action/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/popover/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/textarea-item/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/flex/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/nav-bar/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/card/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/switch/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/image-picker/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/tag/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/pull-to-refresh/style/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/search-bar/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/search-bar/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/progress/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/progress/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/grid/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/grid/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/stepper/index.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/stepper/PropsType.js" />
-        <option value="$USER_HOME$/gitproject/ant-design-mobile/components/action-sheet/index.js" />
-      </list>
-    </option>
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1378" height="3" key="GridCell.Tab.0.bottom" timestamp="1594301929063">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1378" height="177" key="GridCell.Tab.0.bottom/-1112.23.1112.811/0.23.1440.877@0.23.1440.877" timestamp="1589372189927" />
+    <state width="1378" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594301929063" />
+    <state width="1378" height="3" key="GridCell.Tab.0.center" timestamp="1594301929063">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1378" height="177" key="GridCell.Tab.0.center/-1112.23.1112.811/0.23.1440.877@0.23.1440.877" timestamp="1589372189927" />
+    <state width="1378" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1594301929063" />
+    <state width="1378" height="3" key="GridCell.Tab.0.left" timestamp="1594301929062">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1378" height="177" key="GridCell.Tab.0.left/-1112.23.1112.811/0.23.1440.877@0.23.1440.877" timestamp="1589372189927" />
+    <state width="1378" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1594301929062" />
+    <state width="1378" height="3" key="GridCell.Tab.0.right" timestamp="1594301929063">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1378" height="177" key="GridCell.Tab.0.right/-1112.23.1112.811/0.23.1440.877@0.23.1440.877" timestamp="1589372189927" />
+    <state width="1378" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594301929063" />
+    <state x="193" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1589528537961">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="193" y="216" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589528537961" />
+    <state x="217" y="23" width="1005" height="1466" key="search.everywhere.popup" timestamp="1591701356346">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="217" y="23" width="1005" height="1466" key="search.everywhere.popup/-1112.23.1112.811/0.23.1440.877@0.23.1440.877" timestamp="1589362299267" />
+    <state x="217" y="23" width="1005" height="1466" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1591701356346" />
   </component>
 </project>

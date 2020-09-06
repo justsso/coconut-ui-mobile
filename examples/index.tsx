@@ -6,7 +6,7 @@ import {useState} from 'react';
 import './index.less';
 
 function ExampleOne() {
-    let [status] = useState([false, false, true]
+    let [status] = useState([true, true, true]
     );
 
     return (
